@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.debug{
+  background-color: rgba(255, 0, 0, .2);
+  border: 1px solid black;
+}
+
+header .container{
+  width: 1500px;
+  max-width: 98%;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex{
+  display: flex;
+}
+
+.jc{
+  justify-content: center;
+}
+
+.aic{
+  align-items: center;
+}
+
+header nav ul{
+  list-style: none;
+}
+
+header nav li{
+  padding: 20px;
+}
+
+header nav li img{
+  vertical-align: middle;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+a.button{
+  border: none;
+  color: white;
+  background-color: #0061FF;
+  padding: 8px 10px;
+
+}
+
+.jumbotron{
+  height: 500px;
+  background-color: #B4D0E7;
+}
+
+.relative{
+  position: relative;
+}
+
+header .jumbotron .container{
+  width: 1000px;
+  height: 450px;
+}
+
+header .jumbotron .container h1{
+  font-size: 4rem;
+}
+
+header .jumbotron .container p{
+  font-size: 1.05rem;
+}
+
+.col.p{
+  width: 30%;
+}
+
+.col.img{
+  width: 70%;
+}
+
+img{
+  width: 100%;
+}
+
+header .jumbotron .col.relative span a.button{
+  position: absolute;
+  top: 170px;
+}
+
+header .jumbotron .col.relative span a.freccia{
+  position: absolute;
+  bottom: 100px;
+}
+
