@@ -151,7 +151,15 @@ main form label{
 
 .card{
   max-width: 300px;
-  padding: 20px
+  padding: 20px;
+}
+
+.oriz{
+  width: 100%;
+}
+
+.card-oriz{
+  padding: 20px;
 }
 
 .mt{
@@ -176,8 +184,15 @@ main form label{
   padding-top: 100px;
 }
 
-.provafree a{
+.provafree a, .contatta a{
   padding: 8px 39px;
 
 }
 
+.partner .col:first-child{
+  width: 60%;
+}
+
+.partner .col:last-child{
+  width: 40%;
+}
