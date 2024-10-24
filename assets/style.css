@@ -84,7 +84,7 @@ header{
   position: relative;
 }
 
-header .jumbotron .container{
+header .jumbotron .container, footer .container{
   width: 1200px;
   height: 450px;
 }
@@ -134,7 +134,6 @@ header .jumbotron .col.relative span a.freccia i{
 
 main .container{
   width: 1000px;
-  height: 2000px;
 }
 
 main .container h2{
@@ -143,6 +142,10 @@ main .container h2{
 
 form{
   padding: 30px 30px 30px 0px;
+}
+
+main{
+  padding-bottom: 200px;
 }
 
 main form label{
@@ -157,6 +160,10 @@ main form label{
 .card{
   max-width: 300px;
   padding: 30px;
+}
+
+.business .card{
+  padding: 0;
 }
 
 .oriz{
@@ -207,4 +214,49 @@ h3{
 
 .business{
   margin-top: 200px;
+}
+
+.contatto{
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.partner{
+  margin-top: 200px;
+}
+
+.mainfooter{
+  padding-top: 200px;
+}
+
+.mainfooter .a{
+  margin-top: 50px;
+}
+
+.scopri{
+  padding-top: 50px;
+}
+
+footer{
+  background-color: black;
+  color: white;
+}
+
+footer li{
+  padding-top: 20px;
+}
+
+footer li:nth-child(2){
+  padding-top: 50px;
+}
+
+
+footer a{
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover{
+  color: gray;
 }
