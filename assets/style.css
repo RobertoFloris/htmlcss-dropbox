@@ -9,10 +9,10 @@ body{
   scroll-behavior: smooth;
 }
 
-/* .debug{
+.debug{
   background-color: rgba(255, 0, 0, .2);
   border: 1px solid black;
-} */
+}
 
 header .container{
   width: 1500px;
@@ -30,6 +30,10 @@ header .container{
 
 .sb{
   justify-content: space-between;
+}
+
+.wrap{
+  flex-wrap: wrap;
 }
 
 .jc{
@@ -152,7 +156,7 @@ main form label{
 
 .card{
   max-width: 300px;
-  padding: 20px;
+  padding: 30px;
 }
 
 .oriz{
@@ -167,8 +171,7 @@ main form label{
   margin-top: 20px;
 }
 
-.containercard h3{
-  margin-top: 30px;
+h3{
   font-size: 1.8rem;
 }
 
@@ -186,7 +189,7 @@ main form label{
 }
 
 .provafree a, .contatta a{
-  padding: 8px 39px;
+  padding: 8px 29px;
 
 }
 
@@ -200,4 +203,8 @@ main form label{
 
 .border{
   border: 1px solid #E4E4E5;
+}
+
+.business{
+  margin-top: 200px;
 }
